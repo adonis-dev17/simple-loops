@@ -4,7 +4,7 @@ Welcome to the Simple Loops Practice repository! This repository is designed to 
 🚀 Getting Started
 To get started, simply clone this repository to your local machine using the following command:
 
-git clone https://github.com/your-username/simple-loops-practice.git
+git clone https://github.com/adonis-dev17/simple-loops.git
 🛠️ Instructions
 Navigate to the javascript folder.
 Open the main.js file.
