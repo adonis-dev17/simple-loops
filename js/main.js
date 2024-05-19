@@ -15,3 +15,20 @@ let correctName = 'Adonis';
       console.log(`Welcome back, ${correctName} `);
     }
   } while (yourName !== correctName && counter !== 0)
+
+//2. Write a loop that makes seven calls to console.log to output the following triangle:
+
+// #
+// ##
+// ###
+// ####
+// #####
+// ######
+// #######
+
+//Solution:
+let triangle = '#';
+  for (let tri=0; tri<7; tri++) {
+    console.log(triangle);
+    triangle = triangle + '#';
+  }
