@@ -66,3 +66,25 @@ for (let element = '#'; element.length < 8; element +='#') {
     if (i%5 === 0) output += 'Buzz';
     console.log(output || i);
   }
+
+  // Write a program that creates a string that represents an 8×8 grid, using newline 
+//   characters to separate lines. At each position of the grid there is either a space or 
+//   a "#" character. The characters should form a chessboard.
+//   Passing this string to console.log should show something like this:
+
+// # # # #
+// # # # # 
+// # # # #
+// # # # # 
+// # # # #
+// # # # # 
+// # # # #
+// # # # #
+
+  for (let i=1; i<=4; i++) {
+    console.log(' # # # #');
+    for (let j=1; j<2;j++) {
+     console.log('# # # # ');
+    }
+    
+  }
